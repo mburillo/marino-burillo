@@ -42,3 +42,13 @@ h2.text-start {
 .link-icons.d-flex {
   justify-content: center;
 }
+.my-component {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.my-component.active {
+  opacity: 1;
+  transform: translateY(0);
+}

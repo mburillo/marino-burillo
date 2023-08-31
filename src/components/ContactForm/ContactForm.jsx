@@ -1,15 +1,21 @@
 import React from 'react';
+import { useInView } from 'react-intersection-observer';
 import { useForm, ValidationError } from '@formspree/react';
 import './ContactForm.css';
 import { useTranslation } from 'react-i18next';
 function ContactForm() {
+  const [inViewRef, inView] = useInView({
+    triggerOnce: true, 
+    threshold: 0.3,
+  });
   const [state, handleSubmit] = useForm("xgejyvoo");
   const { t } = useTranslation();
   if (state.succeeded) {
       return <p>Thanks for reaching me!</p>;
-  }
+  }  
   return (
-    <div className='contact'>
+    <div ref={inViewRef} className={`my-component ${inView ? 'active' : ''}`}>
+    <div className='contact mb-5'>
       <h1 className='text-center'>{t('contact-me')}</h1>
     <form onSubmit={handleSubmit}>
       <label htmlFor="name">
@@ -57,6 +63,7 @@ function ContactForm() {
         Send
       </button>
     </form>
+    </div>
     </div>
   );
 }

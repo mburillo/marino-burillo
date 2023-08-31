@@ -1,7 +1,12 @@
 import React from 'react';
 import './AboutMe.css';
+import { useInView } from 'react-intersection-observer';
 import { useTranslation } from 'react-i18next';
 const AboutMe = () => {
+  const [inViewRef, inView] = useInView({
+    triggerOnce: true, 
+    threshold: 0.3,
+  });
   const { t } = useTranslation();
   const skills = [
     { name: 'Spring Boot', level:'80%'},
@@ -20,8 +25,9 @@ const AboutMe = () => {
   ];
 
   return (
+    <div ref={inViewRef} className={`my-component ${inView ? 'active' : ''}`}>
     <div className="AboutMe container">
-      <h1 className='text-center'>{t('about-me')}</h1>
+      <h1 className='text-center mb-3'>{t('about-me')}</h1>
       <div className="row">
         <div className="col-12 col-lg-8 ">
           <p>
@@ -52,6 +58,7 @@ const AboutMe = () => {
           ))}
         </div>
       </div>
+    </div>
     </div>
   );
 };
