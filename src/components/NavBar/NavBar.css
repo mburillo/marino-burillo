@@ -1,0 +1,22 @@
+.navbar {
+    /* Estilos personalizados para la barra de navegación aquí */
+  }
+  
+  .nav-link {
+    cursor: pointer;
+  }
+  .navbar-nav > .nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .nav-link {
+    font-size: 1.2em;
+    color: #333 !important;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #007bff !important;
+  }
+  

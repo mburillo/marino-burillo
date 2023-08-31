@@ -1,0 +1,31 @@
+.AboutMe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .skill-label {
+    width: 100px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    background-color: #0056b3;
+    margin-right: 0px;
+  }
+  
+  .progress {
+    flex-grow: 1;  
+    height: 20px;  
+  }
+  
+  .progress-bar {
+    line-height: 20px;
+    color: white;
+    text-align: center;
+  }
+  
