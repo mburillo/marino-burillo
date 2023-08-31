@@ -22,7 +22,7 @@ const NavBar = () => {
               <Link activeClass="active" to="home" spy={true} smooth={true} className="nav-link">{t('home')}</Link>
             </li>
             <li className="nav-item">
-              <Link activeClass="active" to="aboutMe" spy={true} smooth={true} className="nav-link">{t('about-me')}</Link>
+              <Link activeClass="active" to="AboutMe" spy={true} smooth={true} className="nav-link">{t('about-me')}</Link>
             </li>
             <li className="nav-item">
               <Link activeClass="active" to="portfolio" spy={true} smooth={true} className="nav-link">Portfolio</Link>

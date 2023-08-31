@@ -9,6 +9,8 @@ function ContactForm() {
       return <p>Thanks for reaching me!</p>;
   }
   return (
+    <div className='contact'>
+      <h1 className='text-center'>{t('contact-me')}</h1>
     <form onSubmit={handleSubmit}>
       <label htmlFor="name">
         {t('your-name')}
@@ -55,6 +57,7 @@ function ContactForm() {
         Send
       </button>
     </form>
+    </div>
   );
 }
 

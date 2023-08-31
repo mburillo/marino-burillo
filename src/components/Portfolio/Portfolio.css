@@ -1,8 +1,44 @@
 .portfolio-section {
-    padding: 2rem 0;
-  }
-  
-  .card {
-    margin-bottom: 2rem;
-  }
-  
+  padding: 2em 0;
+}
+
+.card {
+  display: inline-block;
+}
+
+.description {
+  display: inline-block;
+}
+
+.link-icons {
+  margin-top: 10px;
+}
+
+.ps-5, .pe-5 {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+}
+.portfolio-section {
+  margin: 50px 0;
+  padding-top: 75px; 
+  margin-top: 0px;  
+}
+
+/* Título siempre a la izquierda */
+h2.text-start {
+  text-align: left;
+}
+
+/* Texto de descripción más centrado */
+.description.centered-text {
+  margin: 0 15%;
+}
+
+/* Tarjetas más pequeñas y separadas de los lados */
+.card.custom-card {
+  width: 80%;
+  margin: 0 auto;
+}
+.link-icons.d-flex {
+  justify-content: center;
+}

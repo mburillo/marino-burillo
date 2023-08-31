@@ -1,6 +1,7 @@
 .AboutMe {
-    margin-top: 20px;
     margin-bottom: 20px;
+    padding-top: 75px; 
+    margin-top: -25px;  
   }
   
   .skill {
