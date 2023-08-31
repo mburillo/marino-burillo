@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.3b27a553.css",
-    "main.js": "/my-portfolio/static/js/main.2a6b357d.js",
-    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/coding-together.png": "/my-portfolio/static/media/coding-together.65587567a06ac1babb06.png",
-    "static/media/logo.svg": "/my-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/my-portfolio/index.html",
-    "main.3b27a553.css.map": "/my-portfolio/static/css/main.3b27a553.css.map",
-    "main.2a6b357d.js.map": "/my-portfolio/static/js/main.2a6b357d.js.map",
-    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/marino-burillo/static/css/main.3b27a553.css",
+    "main.js": "/marino-burillo/static/js/main.fa0748a3.js",
+    "static/js/787.128fc6e9.chunk.js": "/marino-burillo/static/js/787.128fc6e9.chunk.js",
+    "static/media/coding-together.png": "/marino-burillo/static/media/coding-together.65587567a06ac1babb06.png",
+    "static/media/logo.svg": "/marino-burillo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/marino-burillo/index.html",
+    "main.3b27a553.css.map": "/marino-burillo/static/css/main.3b27a553.css.map",
+    "main.fa0748a3.js.map": "/marino-burillo/static/js/main.fa0748a3.js.map",
+    "787.128fc6e9.chunk.js.map": "/marino-burillo/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b27a553.css",
-    "static/js/main.2a6b357d.js"
+    "static/js/main.fa0748a3.js"
   ]
 }
