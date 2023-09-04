@@ -16,7 +16,7 @@ function ContactForm() {
   return (
     <div ref={inViewRef} className={`my-component ${inView ? 'active' : ''}`}>
     <div className='contact mb-5'>
-      <h1 className='text-center'>{t('contact-me')}</h1>
+      <h1 className='text-center mb-4'>{t('contact-me')}</h1>
     <form onSubmit={handleSubmit}>
       <label htmlFor="name">
         {t('your-name')}

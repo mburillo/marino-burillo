@@ -27,7 +27,7 @@ const AboutMe = () => {
   return (
     <div ref={inViewRef} className={`my-component ${inView ? 'active' : ''}`}>
     <div className="AboutMe container">
-      <h1 className='text-center mb-3'>{t('about-me')}</h1>
+      <h1 className='text-center mb-4'>{t('about-me')}</h1>
       <div className="row">
         <div className="col-12 col-lg-8 ">
           <p>

@@ -10,7 +10,13 @@ const Home = () => {
             <source src={backgroundVideo} type="video/mp4" />
           </video>
           <div className="overlay-text">
-            <h1>{t('home-text')}</h1>
+          <h1>  {t('home-text').split('|').map((str, index) => 
+    index !== 1 ? 
+      <div key={index} className={index === 0 ? 'may-center' : ''}>{str}</div> : 
+      <div key={index} style={{textAlign: 'center'}}>{str}</div>
+  )}
+</h1>
+
           </div>
         </div>
       );

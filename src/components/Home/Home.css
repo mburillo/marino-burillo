@@ -27,3 +27,14 @@
     background: rgba(0, 0, 0, 0.25); 
   }
   
+  /* Estilo predeterminado para escritorio */
+.may-center {
+  text-align: left;
+}
+
+/* Estilos para móviles */
+@media only screen and (max-width: 768px) {
+  .may-center {
+    text-align: center;
+  }
+}
