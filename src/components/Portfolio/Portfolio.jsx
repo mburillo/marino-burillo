@@ -4,6 +4,7 @@ import './Portfolio.css';
 import { faGithub, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import codingTogetherImage from '../../assets/images/coding-together.png';
+import musicWorldImage from '../../assets/images/musicWorld.png';
 import { useTranslation } from 'react-i18next';
 const Portfolio = () => {
   const { t } = useTranslation();
@@ -15,15 +16,15 @@ const Portfolio = () => {
     {
       title: "MusicWorld",
       description: t('musicworld-description'),
-      image: codingTogetherImage,
-      link: "https://example.com/proyecto1",
-      github: "https://github.com/usuario/proyecto1"
+      image: musicWorldImage,
+      link: "https://mburillo.github.io/musicworld",
+      github: "https://mburillo.github.io/tfg"
     },
     {
       title: "CodingTogether",
       description: t('codingtogether-description'),
       image: codingTogetherImage,
-      link: "https://example.com/proyecto2",
+      link: "https://mburillo.github.io/tfg",
       github: "https://github.com/usuario/proyecto2"
     },
   ];
