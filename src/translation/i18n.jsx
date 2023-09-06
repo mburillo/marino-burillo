@@ -45,7 +45,7 @@ const resources = {
       "my-portfolio" : "Mi portfolio",
       "portfolio-introduction": "Aquí puedes echar un vistazo a mis últimos proyectos. El servidor puede no estar activo inicialmente, reiniciar la página una vez debería arreglarlo.",
       "home-text":"Transformando ideas en código y código en soluciones. | Soy Marino, Desarrollador Web.",
-      "send": "Send"
+      "send": "Enviar"
     }
   }
 };
