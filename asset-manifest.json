@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.98b42b40.css",
-    "main.js": "/portfolio/static/js/main.7396df05.js",
+    "main.css": "/portfolio/static/css/main.ab2ddfd4.css",
+    "main.js": "/portfolio/static/js/main.0fce9ef0.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/background.mp4": "/portfolio/static/media/background.750bb8becc0c8ab8ef3b.mp4",
     "static/media/musicWorld.png": "/portfolio/static/media/musicWorld.d574ed6ee8cd7d8d007e.png",
     "static/media/coding-together.png": "/portfolio/static/media/coding-together.65587567a06ac1babb06.png",
     "index.html": "/portfolio/index.html",
-    "main.98b42b40.css.map": "/portfolio/static/css/main.98b42b40.css.map",
-    "main.7396df05.js.map": "/portfolio/static/js/main.7396df05.js.map",
+    "main.ab2ddfd4.css.map": "/portfolio/static/css/main.ab2ddfd4.css.map",
+    "main.0fce9ef0.js.map": "/portfolio/static/js/main.0fce9ef0.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98b42b40.css",
-    "static/js/main.7396df05.js"
+    "static/css/main.ab2ddfd4.css",
+    "static/js/main.0fce9ef0.js"
   ]
 }
