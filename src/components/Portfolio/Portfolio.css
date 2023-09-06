@@ -24,17 +24,14 @@
   margin-top: 0px;  
 }
 
-/* Título siempre a la izquierda */
 h2.text-start {
   text-align: left;
 }
 
-/* Texto de descripción más centrado */
 .description.centered-text {
   margin: 0 15%;
 }
 
-/* Tarjetas más pequeñas y separadas de los lados */
 .card.custom-card {
   width: 80%;
   margin: 0 auto;
@@ -53,24 +50,28 @@ h2.text-start {
   transform: translateY(0);
 }
 
-/* Estilo predeterminado para escritorio */
 .description, .card.custom-card {
   width: 80%;
   margin: 0 auto;
 }
 
-/* Estilos para móviles */
+.intro-paragraph {
+  margin: 0 auto;
+  width: 80%;
+}
+
+
 @media only screen and (max-width: 768px) {
   .description, .card.custom-card {
     width: 100%;
     margin: 0;
-    padding: 0; /* Elimina cualquier padding que pudiera existir */
+    padding: 0;
   }
 
   .description.centered-text, .ps-5, .pe-5 {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
-    margin-left: 0 !important; /* Elimina el margen izquierdo */
-    margin-right: 0 !important; /* Elimina el margen derecho */
+    margin-left: 0 !important; 
+    margin-right: 0 !important;
   }
 }

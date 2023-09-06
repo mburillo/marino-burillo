@@ -60,7 +60,7 @@ function ContactForm() {
       />
 
       <button type="submit" disabled={state.submitting}>
-        Send
+        {t('send')}
       </button>
     </form>
     </div>

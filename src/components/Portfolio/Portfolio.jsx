@@ -25,7 +25,7 @@ const Portfolio = () => {
       description: t('codingtogether-description'),
       image: codingTogetherImage,
       link: "https://mburillo.github.io/tfg",
-      github: "https://github.com/usuario/proyecto2"
+      github: "https://github.com/mburillo/full-coding-together"
     },
   ];
 
@@ -33,9 +33,10 @@ const Portfolio = () => {
     <div ref={inViewRef} className={`my-component ${inView ? 'active' : ''}`}>
       <div id="portfolio" className="portfolio-section">
         <h1 className="text-center mb-4">{t('my-portfolio')}</h1>
-        <div className="container">
-          <p>{t('portfolio-introduction')}</p>
-        </div>
+        <div className="col-lg-6 text-start intro-paragraph">
+  <p>{t('portfolio-introduction')}</p>
+</div>
+
         {projects.map((project, index) => (
           <div key={index} className="row align-items-center my-4">
             <div className={`col-lg-6 ${index % 2 === 0 ? 'order-lg-2 text-start' : 'order-lg-1 text-end'}`}>
